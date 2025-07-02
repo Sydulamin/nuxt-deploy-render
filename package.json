@@ -1,9 +1,6 @@
 {
   "name": "nuxt-demo-2",
   "version": "1.0.0",
-  "description": "My scrumtrulescent Nuxt.js project",
-  "author": "anuradha151",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,18 +8,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.8",
-    "@fortawesome/free-solid-svg-icons": "^5.5.0",
-    "@fortawesome/vue-fontawesome": "^0.1.2",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/bulma": "^1.2.0",
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.8",
+    "axios": "^0.21.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/bulma": "^1.2.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5"
   },
-  "devDependencies": {
-    "nodemon": "^1.11.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-prettier": "2.6.2",
-    "prettier": "1.14.3"
+  "resolutions": {
+    "flatmap-stream": "0.0.0"
   }
 }
