@@ -4,6 +4,11 @@ module.exports = {
 
   mode: 'universal',
   target: 'server',
+  
+  server: {
+    host: '0.0.0.0',
+    port: process.env.PORT || 3000
+  },
 
   /*
   ** Headers of the page
@@ -72,5 +77,7 @@ module.exports = {
     extend(config, ctx) {
 
     }
+
+    
   }
 }
